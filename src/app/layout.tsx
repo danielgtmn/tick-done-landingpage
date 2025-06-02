@@ -4,7 +4,6 @@ import { Analytics } from "@vercel/analytics/next"
 import LanguageSwitcher from "@/components/language-switcher";
 import { cookies } from "next/headers";
 import { t } from "../lib/translations";
-import ConditionalComingSoon from "./ConditionalComingSoon";
 
 
 const geistSans = Geist({
@@ -56,11 +55,9 @@ export default async function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ConditionalComingSoon>
-          <Header lang={lang} />
-          <Analytics />
-          {children}
-        </ConditionalComingSoon>
+        <Header lang={lang} />
+        <Analytics />
+        {children}
       </body>
     </html>
   );
