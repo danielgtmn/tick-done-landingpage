@@ -53,7 +53,7 @@ export default async function Home() {
             </div>
             <h1 className="text-3xl sm:text-4xl font-extrabold text-center mt-2">{t('hero.claim', lang)}</h1>
             <p className="text-lg text-center text-gray-600 max-w-xl">{t('hero.subline', lang)}</p>
-            <a href="#signup" className="mt-6 px-8 py-3 bg-[#FF5C2A] text-white rounded-full font-semibold shadow hover:bg-[#e04e1e] transition">{t('hero.cta', lang)}</a>
+            <a href="https://app.tick-done.com" className="mt-6 px-8 py-3 bg-[#FF5C2A] text-white rounded-full font-semibold shadow hover:bg-[#e04e1e] transition">{t('hero.cta', lang)}</a>
             {/* Screenshot/Animation Placeholder */}
             <div className="mt-8 w-full flex justify-center">
               <Image
@@ -168,7 +168,7 @@ function Header({ lang }: { lang: 'en' | 'de' }) {
         </ul>
         <div className="flex items-center gap-2">
           <LanguageSwitcher />
-          <a href="#signup" className="ml-2 px-5 py-2 bg-[#FF5C2A] text-white rounded-full font-semibold shadow hover:bg-[#e04e1e] transition text-sm">{t('hero.cta', lang)}</a>
+          <a href="https://app.tick-done.com" className="ml-2 px-5 py-2 bg-[#FF5C2A] text-white rounded-full font-semibold shadow hover:bg-[#e04e1e] transition text-sm">{t('hero.cta', lang)}</a>
         </div>
       </nav>
     </header>
