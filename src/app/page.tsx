@@ -39,7 +39,6 @@ export default async function Home() {
 
   return (
     <>
-      <Header lang={lang} />
       <div className="flex flex-col min-h-screen bg-[#F9FAFB] text-[#1F2A44] font-sans">
         {/* Hero Section */}
         <section className="flex flex-col items-center justify-center py-16 px-4 bg-white border-b border-gray-100">
@@ -148,30 +147,6 @@ export default async function Home() {
       <Footer lang={lang} />
       <CookieBar />
     </>
-  );
-}
-
-function Header({ lang }: { lang: 'en' | 'de' }) {
-  return (
-    <header className="sticky top-0 z-30 w-full bg-white shadow-sm border-b border-gray-100">
-      <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
-        <a href="#hero" className="flex items-center gap-2">
-          <div className="bg-[#FF5C2A] rounded-lg p-1.5">
-            <svg width="32" height="32" viewBox="0 0 40 40" fill="none" aria-hidden><rect width="40" height="40" rx="8" fill="#FF5C2A"/><path d="M12 21l6 6 10-12" stroke="#fff" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/></svg>
-          </div>
-          <span className="text-lg font-bold tracking-tight">Tick-Done</span>
-        </a>
-        <ul className="hidden md:flex items-center gap-6 text-sm font-medium">
-          <li><a href="#features" className="hover:text-[#FF5C2A] transition">{t('features.title', lang)}</a></li>
-          <li><a href="#pricing" className="hover:text-[#FF5C2A] transition">{t('pricing.title', lang)}</a></li>
-          <li><a href="#faq" className="hover:text-[#FF5C2A] transition">{t('faq.title', lang)}</a></li>
-        </ul>
-        <div className="flex items-center gap-2">
-          <LanguageSwitcher />
-          <a href="https://app.tick-done.com" className="ml-2 px-5 py-2 bg-[#FF5C2A] text-white rounded-full font-semibold shadow hover:bg-[#e04e1e] transition text-sm">{t('hero.cta', lang)}</a>
-        </div>
-      </nav>
-    </header>
   );
 }
 
