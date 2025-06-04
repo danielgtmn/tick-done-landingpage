@@ -1,6 +1,5 @@
 import { t } from "../lib/translations";
 import type { Metadata } from "next";
-import LanguageSwitcher from "../components/language-switcher";
 import { cookies } from "next/headers";
 import CookieBar from "../components/cookie-bar";
 import Image from "next/image";
