@@ -1,9 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/next"
 import LanguageSwitcher from "@/components/language-switcher";
 import { cookies } from "next/headers";
 import { t } from "../lib/translations";
+import UmamiAnalytics from "@danielgtmn/umami-react";
 
 
 const geistSans = Geist({
@@ -56,7 +56,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header lang={lang} />
-        <Analytics />
+        <UmamiAnalytics />
         {children}
       </body>
     </html>
