@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@danielgtmn/umami-react':
-        specifier: ^0.0.3
-        version: 0.0.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       next:
         specifier: 15.3.2
         version: 15.3.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -58,13 +55,6 @@ packages:
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
-
-  '@danielgtmn/umami-react@0.0.3':
-    resolution: {integrity: sha512-dTaBwUYIoqNmc61UOdDPUtQU/XX804TCbuMHUiZ0V4+CrnJjjMCw3glr40t+dL8KPqxTSvNhN/2Hl4/OGcR45w==}
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      react: ^18.2.0
-      react-dom: ^18.2.0
 
   '@emnapi/core@1.4.3':
     resolution: {integrity: sha512-4m62DuCE07lw01soJwPiBGC0nAww0Q+RY70VZ+n49yDIO13yyinhbWCeNnaob0lakDtWQzSdtNWzJeOJt2ma+g==}
@@ -1795,11 +1785,6 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
-
-  '@danielgtmn/umami-react@0.0.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
-    dependencies:
-      react: 19.1.0
-      react-dom: 19.1.0(react@19.1.0)
 
   '@emnapi/core@1.4.3':
     dependencies:
