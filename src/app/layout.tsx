@@ -3,8 +3,7 @@ import "./globals.css";
 import LanguageSwitcher from "@/components/language-switcher";
 import { cookies } from "next/headers";
 import { t } from "../lib/translations";
-import UmamiAnalytics from "@danielgtmn/umami-react";
-
+import Analytics from "@/components/analytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -56,7 +55,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header lang={lang} />
-        <UmamiAnalytics />
+       <Analytics/>
         {children}
       </body>
     </html>
