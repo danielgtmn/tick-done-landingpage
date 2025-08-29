@@ -68,7 +68,7 @@ function Header() {
           <div className="flex items-center gap-3">
             <LanguageSwitcher />
             <a
-              href="https://tick-done.app"
+              href="https://tick-done.com"
               className="hidden sm:inline-flex items-center px-4 py-2 bg-[#FF5C2A] text-white font-semibold rounded-lg hover:bg-[#E5471A] transition-colors"
             >
               {currentLang === "de" ? "Anmelden" : "Sign In"}
@@ -123,7 +123,7 @@ function Header() {
                 {currentLang === "de" ? "Support" : "Support"}
               </a>
               <a
-                href="https://tick-done.app"
+                href="https://tick-done.com"
                 className="inline-flex items-center justify-center px-4 py-3 bg-[#FF5C2A] text-white font-semibold rounded-lg hover:bg-[#E5471A] transition-colors mt-2"
               >
                 {currentLang === "de" ? "Anmelden" : "Sign In"}
@@ -234,7 +234,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://tick-done.app"
+                  href="https://tick-done.com"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   {currentLang === "de" ? "Anmelden" : "Sign In"}
@@ -258,10 +258,10 @@ function Footer() {
               </li>
               <li className="text-gray-400">
                 <a
-                  href="mailto:support@tick-done.app"
+                  href="mailto:support@tick-done.com"
                   className="hover:text-white transition-colors"
                 >
-                  support@tick-done.app
+                  support@tick-done.com
                 </a>
               </li>
             </ul>

@@ -356,7 +356,7 @@ function EncryptionPage() {
               : "Experience task management with the highest security standards. Your data stays private."}
           </p>
           <a
-            href="https://tick-done.app"
+            href="https://tick-done.com"
             className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#FF5C2A] font-semibold text-lg rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl"
           >
             {currentLang === "de"

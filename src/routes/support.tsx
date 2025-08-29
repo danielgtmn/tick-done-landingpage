@@ -53,7 +53,7 @@ function SupportPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="mailto:support@tick-done.app"
+              href="mailto:support@tick-done.com"
               className="inline-flex items-center justify-center px-8 py-4 bg-[#FF5C2A] text-white font-semibold text-lg rounded-xl hover:bg-[#E5471A] transition-all duration-200 shadow-lg hover:shadow-xl"
             >
               <svg

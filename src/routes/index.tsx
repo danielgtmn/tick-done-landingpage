@@ -55,7 +55,7 @@ function IndexPage() {
                   style={{ animationDelay: "0.4s" }}
                 >
                   <a
-                    href="https://tick-done.app"
+                    href="https://tick-done.com"
                     className="group inline-flex items-center justify-center px-10 py-5 bg-[#FF5C2A] text-white font-semibold text-lg rounded-2xl hover:bg-[#E5471A] transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-[#FF5C2A]/25 transform hover:-translate-y-1 hover:scale-105"
                   >
                     {t("hero.cta", currentLang)}
@@ -888,7 +888,7 @@ function IndexPage() {
                 : "Be one of the first to try Tick-Done and be part of the journey from the beginning."}
             </p>
             <a
-              href="https://tick-done.app"
+              href="https://tick-done.com"
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#FF5C2A] font-semibold text-lg rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl"
             >
               {t("hero.cta", currentLang)}
@@ -1054,7 +1054,7 @@ function PricingCard({ plan, lang }: { plan: "free" | "pro"; lang: Language }) {
         </ul>
 
         <a
-          href="https://tick-done.app"
+          href="https://tick-done.com"
           className={`block w-full py-3 px-6 rounded-xl font-semibold transition-all duration-200 ${
             plan === "pro"
               ? "bg-white text-[#FF5C2A] hover:bg-gray-50"
